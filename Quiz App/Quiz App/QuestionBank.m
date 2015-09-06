@@ -13,10 +13,12 @@
 -(id) init{
     [self superclass];
     questions = [[NSArray alloc]init];
+    answer = [[NSArray alloc]init];
     return self;
 }
 -(void) setQuestion{
     questions =@[@"ABCD", @"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD",@"ABCD", @"ABCD", @"ABCD", @"ABCD", @"ABCD"];
+    answer =@[@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a",@"a"];
 }
 -(NSString*) getRandomQuestion{
     NSInteger i = arc4random()%20;

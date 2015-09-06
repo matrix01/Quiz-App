@@ -10,6 +10,7 @@
 
 @interface QuestionBank : NSObject{
     NSArray *questions;
+    NSArray *answer;
 }
 -(void) setQuestion;
 -(NSString*) getRandomQuestion;

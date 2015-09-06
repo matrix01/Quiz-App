@@ -30,5 +30,10 @@
 - (IBAction)showRandomQuestion:(UIButton *)sender {
     [showQuestion setText: [qb getRandomQuestion]];
 }
+- (IBAction)checkAnswer:(id)sender {
+    UIButton *button = (UIButton*)sender;
+    answer = (int)button.tag;
+    showAnswer.text = [NSString stringWithFormat:@"   %i", answer];
+}
 
 @end
