@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "QuestionBank.h"
+@interface ViewController (){
+    QuestionBank *qb;
+}
 
 @end
 
@@ -17,11 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    qb = [[QuestionBank alloc]init];
+    [qb setQuestion];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)showRandomQuestion:(UIButton *)sender {
+    [showQuestion setText: [qb getRandomQuestion]];
 }
 
 @end

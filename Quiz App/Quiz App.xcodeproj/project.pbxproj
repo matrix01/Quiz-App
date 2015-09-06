@@ -14,6 +14,7 @@
 		F1327C9F1B9BEDFC00170B3F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1327C9E1B9BEDFC00170B3F /* Images.xcassets */; };
 		F1327CA21B9BEDFC00170B3F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1327CA01B9BEDFC00170B3F /* LaunchScreen.xib */; };
 		F1327CAE1B9BEDFC00170B3F /* Quiz_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1327CAD1B9BEDFC00170B3F /* Quiz_AppTests.m */; };
+		F1327CB91B9BF16600170B3F /* QuestionBank.m in Sources */ = {isa = PBXBuildFile; fileRef = F1327CB81B9BF16600170B3F /* QuestionBank.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F1327CA71B9BEDFC00170B3F /* Quiz AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1327CAC1B9BEDFC00170B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1327CAD1B9BEDFC00170B3F /* Quiz_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz_AppTests.m; sourceTree = "<group>"; };
+		F1327CB71B9BF16600170B3F /* QuestionBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionBank.h; sourceTree = "<group>"; };
+		F1327CB81B9BF16600170B3F /* QuestionBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionBank.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				F1327C981B9BEDFC00170B3F /* ViewController.h */,
 				F1327C991B9BEDFC00170B3F /* ViewController.m */,
 				F1327C9B1B9BEDFC00170B3F /* Main.storyboard */,
+				F1327CB71B9BF16600170B3F /* QuestionBank.h */,
+				F1327CB81B9BF16600170B3F /* QuestionBank.m */,
 				F1327C9E1B9BEDFC00170B3F /* Images.xcassets */,
 				F1327CA01B9BEDFC00170B3F /* LaunchScreen.xib */,
 				F1327C911B9BEDFC00170B3F /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1327C9A1B9BEDFC00170B3F /* ViewController.m in Sources */,
+				F1327CB91B9BF16600170B3F /* QuestionBank.m in Sources */,
 				F1327C971B9BEDFC00170B3F /* AppDelegate.m in Sources */,
 				F1327C941B9BEDFC00170B3F /* main.m in Sources */,
 			);

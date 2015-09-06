@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+@class QuestionBank;
+@interface ViewController : UIViewController{
+    __weak IBOutlet UILabel *showQuestion;
+    __weak IBOutlet UIButton *questionButton;
+}
 @end
 
