@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C424B8C1B9D613F008C354B /* NSMutableDictionaryHelp.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8C424B8B1B9D613F008C354B /* NSMutableDictionaryHelp.txt */; };
 		F1327C941B9BEDFC00170B3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1327C931B9BEDFC00170B3F /* main.m */; };
 		F1327C971B9BEDFC00170B3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1327C961B9BEDFC00170B3F /* AppDelegate.m */; };
 		F1327C9A1B9BEDFC00170B3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1327C991B9BEDFC00170B3F /* ViewController.m */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C424B8B1B9D613F008C354B /* NSMutableDictionaryHelp.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NSMutableDictionaryHelp.txt; sourceTree = "<group>"; };
 		F1327C8E1B9BEDFC00170B3F /* Quiz App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1327C921B9BEDFC00170B3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1327C931B9BEDFC00170B3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				F1327C9B1B9BEDFC00170B3F /* Main.storyboard */,
 				F1327CB71B9BF16600170B3F /* QuestionBank.h */,
 				F1327CB81B9BF16600170B3F /* QuestionBank.m */,
+				8C424B8B1B9D613F008C354B /* NSMutableDictionaryHelp.txt */,
 				F1327C9E1B9BEDFC00170B3F /* Images.xcassets */,
 				F1327CA01B9BEDFC00170B3F /* LaunchScreen.xib */,
 				F1327C911B9BEDFC00170B3F /* Supporting Files */,
@@ -207,6 +210,7 @@
 				F1327C9D1B9BEDFC00170B3F /* Main.storyboard in Resources */,
 				F1327CA21B9BEDFC00170B3F /* LaunchScreen.xib in Resources */,
 				F1327C9F1B9BEDFC00170B3F /* Images.xcassets in Resources */,
+				8C424B8C1B9D613F008C354B /* NSMutableDictionaryHelp.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +428,7 @@
 				F1327CB31B9BEDFC00170B3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1327CB41B9BEDFC00170B3F /* Build configuration list for PBXNativeTarget "Quiz AppTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +437,7 @@
 				F1327CB61B9BEDFC00170B3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

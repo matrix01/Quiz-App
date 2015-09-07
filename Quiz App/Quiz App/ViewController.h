@@ -11,8 +11,14 @@
 @interface ViewController : UIViewController{
     __weak IBOutlet UILabel *showQuestion;
     __weak IBOutlet UIButton *questionButton;
-    __weak IBOutlet UILabel *showAnswer;
-    int answer;
+    __weak IBOutlet UILabel *showStatus;
+    __weak IBOutlet UILabel *optionA;
+    __weak IBOutlet UILabel *optionB;
+    __weak IBOutlet UILabel *optionC;
+    __weak IBOutlet UILabel *optionD;
+    __weak IBOutlet UIButton *showAnswerButton;
+    int userAnswer;
+    int actualAnswer;
 }
 @end
 

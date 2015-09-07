@@ -1,0 +1,13 @@
+//NSMutableDictionary object creation and object allocation
+//for loop iteration
+
+NSMutableDictionary *myDict = [[NSMutableDictionary alloc] init];
+NSNumber *key = @1;
+NSArray *myObject  = @[@"Option 1", @"Option 2"];
+myDict[key]   = myObject;
+for (id key in myDict){
+for (id option in myDict[key])
+    NSLog(@"%@", option);
+}
+//or we can use this
+//    options[@0] = @[@"Integrated", @"system", @"operating", @"None"];

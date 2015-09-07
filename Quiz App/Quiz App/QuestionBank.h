@@ -11,8 +11,14 @@
 @interface QuestionBank : NSObject{
     NSArray *questions;
     NSArray *answer;
+    NSMutableDictionary *options;
+    NSInteger random;
 }
+-(NSInteger) getRandomNumber;
+-(void)generateRandomQuestion;
 -(void) setQuestion;
+-(NSString*) getAnswer;
 -(NSString*) getRandomQuestion;
+-(NSArray*) getQuestionOptions;
 @end
 
